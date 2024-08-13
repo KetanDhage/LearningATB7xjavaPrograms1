@@ -1,0 +1,15 @@
+package ex_1407024;
+
+public class lab046 {
+    public static void main(String[] args) {
+        int a = 10;
+        System.out.println(++a + ++a);
+        System.out.println(a);
+        // A -> ++a , Exp = 11    |  a = 11
+        // + -> nothing
+        // B -> ++a  Exp =  12 | a = 12
+        // Exp = A+B = 23 , a = 12
+
+        // a--, --a
+    }
+}
